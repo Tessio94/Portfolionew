@@ -43,7 +43,7 @@ export default function Snippets() {
   return (
     <div
       onClick={handleClick}
-      className="fixed h-screen w-screen overflow-hidden bg-transparent"
+      className="fixed inset-0 z-50 h-screen w-screen overflow-hidden bg-transparent"
     >
       {sparks.map((spark) => (
         <span
