@@ -1,5 +1,6 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import React, { useEffect, useState, useRef } from "react";
 import { GiTBrick } from "react-icons/gi";
 import {
@@ -154,11 +155,19 @@ const Circle = ({
         }}
         ref={circleRef}
       >
-        <p className="relative z-10 text-3xl text-slate-100" style={{ color }}>
+        <p
+          className="font-jet relative z-10 text-3xl text-slate-100"
+          style={{ color }}
+        >
           {degree}
           <span className="text-xs font-medium">%</span>
         </p>
-        <h4 className="relative z-10 text-base font-medium text-slate-100">
+        <h4
+          className={cn(
+            "font-orbitron relative z-10 font-medium text-slate-100",
+            text === "PostgreSQL" ? "text-[13px]" : "text-base",
+          )}
+        >
           {text}
         </h4>
       </div>
