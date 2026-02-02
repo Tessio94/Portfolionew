@@ -22,11 +22,14 @@ const Intro = () => {
             reliable backend solutions.
           </p>
           <p className="text-lg text-slate-100 xl:text-xl">
-            I currently work in a professional studio environment, developing
-            custom CMS platforms and client websites, while continuously
-            improving my skills through personal projects. I enjoy working
-            across the stack, learning new technologies, and turning ideas into
-            well-structured, performant web applications.
+            Professionally, I work in a studio environment developing custom CMS
+            platforms and client websites with <strong>WinterCMS</strong> and{" "}
+            <strong>Laravel</strong>, gaining hands-on experience.
+          </p>
+          <p className="text-lg text-slate-100 xl:text-xl">
+            In my free time, I create personal projects using modern frontend
+            technologies showcased in this portfolio’s stack section, allowing
+            me to explore new ideas and continuously refine my skills.
           </p>
         </div>
       </div>
