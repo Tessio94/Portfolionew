@@ -15,14 +15,14 @@ const Cover = () => {
         <div className="relative z-10 mx-auto max-w-7xl px-6 pt-20 pb-52">
           <div className="mb-15 flex flex-col items-center justify-center gap-6">
             <motion.h1
-              className="font-orbitron text-5xl font-semibold text-slate-100 md:text-6xl lg:text-7xl"
+              className="font-orbitron text-5xl font-semibold text-slate-100 max-[480px]:text-4xl md:text-6xl lg:text-7xl"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
               Šime Klapan
             </motion.h1>
-            <div className="font-jet flex flex-row gap-3 text-3xl text-slate-100 max-[420px]:text-2xl sm:text-4xl">
+            <div className="font-jet flex flex-row gap-1.5 text-3xl text-slate-100 max-[480px]:gap-1 max-[480px]:text-2xl max-[420px]:text-2xl max-[400px]:text-xl sm:gap-3 sm:text-4xl">
               <span>{"<"}</span>
               <AnimateText text="Full Stack Developer" />
               <span>{"/>"}</span>

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="border-theme2/90 relative flex flex-row items-center justify-center border-t-2 bg-[url(/space_bacg.jpg)] px-6 py-8 sm:px-10 lg:px-18">
       <div className="absolute inset-0 z-10 bg-slate-900/60"></div>
       <div className="z-100 flex flex-col items-center justify-center">
-        <p className="font-orbitron text-slate-100">
+        <p className="font-orbitron text-center text-slate-100">
           @ {year} Šime Klapan. All rights reserved.
         </p>
         <a
