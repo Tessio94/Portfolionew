@@ -11,7 +11,7 @@ export const projects = [
     title: "Plan 41",
     text: "Business consulting website built with Next.js, featuring email contact functionality and smooth animations.",
     stack: ["Next.js", "Tailwind"],
-    link: "https://www.plan-41.hr",
+    link: "https://www.plan41.hr",
   },
 
   {
