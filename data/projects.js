@@ -4,7 +4,7 @@ export const projects = [
     title: "Život bez boli",
     text: "Website for a physiotherapy clinic built with Next.js and Tailwind, focused on clean design and responsiveness.",
     stack: ["Next.js", "Tailwind"],
-    link: "https://zivotbezboli.netlify.app/",
+    link: "https://zivotbezboli.com/",
   },
   {
     image: "/01-plan41.jpg",
