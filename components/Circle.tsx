@@ -19,7 +19,13 @@ import {
   RiReactjsFill,
   RiTailwindCssFill,
 } from "react-icons/ri";
-import { SiDocker, SiLinux, SiPostgresql, SiTypescript } from "react-icons/si";
+import {
+  SiDocker,
+  SiLaravel,
+  SiLinux,
+  SiPostgresql,
+  SiTypescript,
+} from "react-icons/si";
 
 const Circle = ({
   text,
@@ -118,6 +124,11 @@ const Circle = ({
       {text === "PHP" && (
         <>
           <RiPhpFill className="text-6xl" style={{ color: `${color}` }} />
+        </>
+      )}
+      {text === "Laravel" && (
+        <>
+          <SiLaravel className="text-6xl" style={{ color: `${color}` }} />
         </>
       )}
       {text === "Git" && (

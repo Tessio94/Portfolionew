@@ -44,19 +44,20 @@ export const projects = [
     link: "https://app2.tessio94.com/",
   },
   {
-    image: "/01-map.jpg",
-    title: "Dynamic Parking Map Zadar",
-    text: "Interactive parking map built with MapLibre and OpenStreetMap vector tiles.",
-    stack: ["jQuery", "MapLibre", "TerraDraw", "OpenFreeMap"],
-    link: "https://sime-map.netlify.app/",
-  },
-  {
     image: "/01-prehab.jpg",
     title: "Prehab fizioterapija",
     text: "Physiotherapy clinic website built with React and Tailwind, including client-side routing and email contact form.",
     stack: ["React", "Tailwind"],
     link: "https://prehabilitationtherapycenter.hr/",
   },
+  {
+    image: "/01-map.jpg",
+    title: "Dynamic Parking Map Zadar",
+    text: "Interactive parking map built with MapLibre and OpenStreetMap vector tiles.",
+    stack: ["jQuery", "MapLibre", "TerraDraw", "OpenFreeMap"],
+    link: "https://sime-map.netlify.app/",
+  },
+
   {
     image: "/01-todo.jpg",
     title: "Todo App",
