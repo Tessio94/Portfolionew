@@ -31,7 +31,7 @@ const Circle = ({
   text,
   targetDegree,
   color,
-  speed = 50,
+  speed = 25,
 }: {
   text: string;
   targetDegree: number;
